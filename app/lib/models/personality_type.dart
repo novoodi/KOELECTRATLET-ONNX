@@ -1,0 +1,1 @@
+enum PersonalityType { introvert, extrovert, ambivert }

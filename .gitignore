@@ -20,3 +20,21 @@ test_venv/
 __pycache__/
 *.pyc
 *.pyo
+
+# Flutter 앱 (app/)
+app/.dart_tool/
+app/.flutter-plugins-dependencies
+app/build/
+app/android/.gradle/
+app/android/.kotlin/
+app/android/local.properties
+app/ios/.symlinks/
+app/windows/flutter/ephemeral/
+app/linux/flutter/ephemeral/
+
+# Flutter 앱 민감 파일
+app/lib/firebase_options.dart
+app/android/app/google-services.json
+app/ios/Runner/GoogleService-Info.plist
+app/assets/model_float32.tflite
+app/android/build/
